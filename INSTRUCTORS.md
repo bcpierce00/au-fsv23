@@ -2,6 +2,8 @@
 
 ## Packages included
 
+(BCP: Out of date)
+
 * OCaml 4.14.0
 * opam 2.1.2
 
@@ -58,7 +60,10 @@
 
 
 ## Build and deploy Docker image
-The prebuilt Docker image can be found on [Docker Hub](https://hub.docker.com/r/eskehoy/aufsv22/tags). You can build the image yourself using the following command. Replacing `IMAGE_NAME` and `TAG` with appropiate values.
+The prebuilt Docker image can be found on [Docker
+Hub](https://hub.docker.com/r/eskehoy/aufsv22/tags). You can build the
+image yourself using the following command. Replacing `IMAGE_NAME` and
+`TAG` with appropiate values (e.g., "cis5000" and "8.17.1").
 ```bash
 docker build src -t IMAGE_NAME:TAG
 ```

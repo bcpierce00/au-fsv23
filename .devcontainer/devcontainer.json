@@ -1,5 +1,5 @@
 {
-  "image": "hanxic/aufsv23:latest",
+  "image": "bcpierce00/cis5000:8.17",
   "customizations": {
     "vscode": {
       "extensions": ["maximedenes.vscoq"],
